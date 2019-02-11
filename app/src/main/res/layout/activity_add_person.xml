@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPersonActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/TV_nom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom :" />
+
+        <EditText
+            android:id="@+id/ET_nom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+
+        <TextView
+            android:id="@+id/TV_prenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prénom :" />
+
+        <EditText
+            android:id="@+id/ET_prenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:text="Valider"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="235dp" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
